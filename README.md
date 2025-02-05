@@ -39,14 +39,12 @@ CloudWatch helps address several critical challenges.
 
 
 
-There are 2 tasks I am performing on Cloud Watch
+There is a task I am performing on Cloud Watch
 
 # Task 1 - Using Default metrics, How to send out alarms for CPU utilization
 * How to configure a Alarm for CPU utilization. 
 * If the CPU utilization reaches above the set limit/threshold, how to setup alarm, and send the notification depending on the Default metrics
 
-# Task 2 - Custom metrics
-* How to write application that can trigger custom metrics.
 
 ## Cloud watch features 
 1. Monitoring
@@ -60,7 +58,7 @@ There are 2 tasks I am performing on Cloud Watch
 Using Log groups - Cloud Watch creates a group for a every AWS every or every application that is deployed, so that it groups all the logs of that application
 
 
-Task 1 : A python script to spike the EC2 CPU usage
+### Task 1 : A python script to spike the EC2 CPU usage
 * I have created a EC2 instance, written a python script to spike the CPU usage on that EC2 instance.
 * I will use Cloud Watch to see the CPU utilization metrics for that instance.
 * By default EC2 instance sends metrics  every 5 min. 
